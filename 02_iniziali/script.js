@@ -2,8 +2,8 @@
 
 // Dichiara la funzione qui.
 function initials (nomi){
-   const iniziali = [];
-    for (let i=0; i< nomi.lenght; i++){
+   let iniziali = [];
+    for (let i=0; i< nomi.length; i++){
       iniziali.push(nomi[i].charAt(0));
     }
     return iniziali;
